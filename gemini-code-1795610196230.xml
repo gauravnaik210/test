@@ -1,0 +1,236 @@
+<?xml version="1.0" encoding="Windows-1252" standalone="no"?>
+<dlg:page
+  xmlns:dlg="http://www.exstream.com/2003/XSL/Dialogue"
+  xmlns:dxf="http://www.exstream.com/2008/XSL/DXF"
+  xmlns:fo="http://www.w3.org/1999/XSL/Format"
+  schemaVersion="2.0"
+  design-type="page"
+  allow-doc-checksum="false"
+  flow-to-page="Page|0|"
+  flow-type="repeat"
+  page-can-overflow="true"
+  page-duplex="false"
+  page-in-sections="false"
+  page-orientation="portrait">
+
+  <dlg:basic>
+    <dlg:name>Test_4x4_Split_Table</dlg:name>
+    <dlg:description>4x4 table with split properties enabled at page, table, row, cell, and block levels</dlg:description>
+  </dlg:basic>
+
+  <fo:declarations>
+    <dlg:tab-ruler
+      default-tab="247.00lu"
+      id="0"
+      list-type="none"
+      number-indent="0"
+      number-string=""
+      number-type="num"
+      user-set-color="false"
+      user-set-type="false"/>
+  </fo:declarations>
+
+  <dlg:paper-type size="8.5in 11in"/>
+
+  <dlg:objects>
+    <dlg:table
+      can-split="true"
+      current-angle="0"
+      delay-comp="none"
+      flip-h="false"
+      flip-v="false"
+      flow-around="no"
+      flow-break="auto"
+      h-auto-size="false"
+      ignore-relative="no"
+      lock-proportions="false"
+      pos-rel-to-above="0"
+      shadow="none"
+      v-auto-size="true">
+
+      <dlg:rect top="72.00pt" left="54.00pt" bottom="216.00pt" right="558.00pt"/>
+
+      <fo:table-column column-number="1" column-width="126.00pt"/>
+      <fo:table-column column-number="2" column-width="126.00pt"/>
+      <fo:table-column column-number="3" column-width="126.00pt"/>
+      <fo:table-column column-number="4" column-width="126.00pt"/>
+
+      <!-- Row 1 -->
+      <fo:table-row keep-together="auto" keep-with-next="auto" keep-with-previous="auto">
+        <fo:table-cell column-number="1" number-columns-spanned="1" display-align="auto" keep-together="auto"
+          margin-top="4.00pt" margin-bottom="4.00pt" margin-left="4.00pt" margin-right="4.00pt"
+          border-top-color="rgb(0,0,0)" border-top-style="solid" border-top-width="0.50pt"
+          border-bottom-color="rgb(0,0,0)" border-bottom-style="solid" border-bottom-width="0.50pt"
+          border-left-color="rgb(0,0,0)" border-left-style="solid" border-left-width="0.50pt"
+          border-right-color="rgb(0,0,0)" border-right-style="solid" border-right-width="0.50pt">
+          <fo:block end-indent="0lu" keep-together="auto" keep-with-next="auto" line-height="0lu" space-after="0lu" space-before="0lu" start-indent="0lu" tab-ruler="0" text-align="left" text-indent="0lu" usage-rule="Rule|0|">
+            <fo:inline color="rgb(0,0,0)" font-family="Times New Roman" font-size="10.00pt" font-style="normal" letter-spacing="0.00pt">Row 1, Col 1</fo:inline>
+          </fo:block>
+        </fo:table-cell>
+        <fo:table-cell column-number="2" number-columns-spanned="1" display-align="auto" keep-together="auto"
+          margin-top="4.00pt" margin-bottom="4.00pt" margin-left="4.00pt" margin-right="4.00pt"
+          border-top-color="rgb(0,0,0)" border-top-style="solid" border-top-width="0.50pt"
+          border-bottom-color="rgb(0,0,0)" border-bottom-style="solid" border-bottom-width="0.50pt"
+          border-left-color="rgb(0,0,0)" border-left-style="solid" border-left-width="0.50pt"
+          border-right-color="rgb(0,0,0)" border-right-style="solid" border-right-width="0.50pt">
+          <fo:block end-indent="0lu" keep-together="auto" keep-with-next="auto" line-height="0lu" space-after="0lu" space-before="0lu" start-indent="0lu" tab-ruler="0" text-align="left" text-indent="0lu" usage-rule="Rule|0|">
+            <fo:inline color="rgb(0,0,0)" font-family="Times New Roman" font-size="10.00pt" font-style="normal" letter-spacing="0.00pt">Row 1, Col 2</fo:inline>
+          </fo:block>
+        </fo:table-cell>
+        <fo:table-cell column-number="3" number-columns-spanned="1" display-align="auto" keep-together="auto"
+          margin-top="4.00pt" margin-bottom="4.00pt" margin-left="4.00pt" margin-right="4.00pt"
+          border-top-color="rgb(0,0,0)" border-top-style="solid" border-top-width="0.50pt"
+          border-bottom-color="rgb(0,0,0)" border-bottom-style="solid" border-bottom-width="0.50pt"
+          border-left-color="rgb(0,0,0)" border-left-style="solid" border-left-width="0.50pt"
+          border-right-color="rgb(0,0,0)" border-right-style="solid" border-right-width="0.50pt">
+          <fo:block end-indent="0lu" keep-together="auto" keep-with-next="auto" line-height="0lu" space-after="0lu" space-before="0lu" start-indent="0lu" tab-ruler="0" text-align="left" text-indent="0lu" usage-rule="Rule|0|">
+            <fo:inline color="rgb(0,0,0)" font-family="Times New Roman" font-size="10.00pt" font-style="normal" letter-spacing="0.00pt">Row 1, Col 3</fo:inline>
+          </fo:block>
+        </fo:table-cell>
+        <fo:table-cell column-number="4" number-columns-spanned="1" display-align="auto" keep-together="auto"
+          margin-top="4.00pt" margin-bottom="4.00pt" margin-left="4.00pt" margin-right="4.00pt"
+          border-top-color="rgb(0,0,0)" border-top-style="solid" border-top-width="0.50pt"
+          border-bottom-color="rgb(0,0,0)" border-bottom-style="solid" border-bottom-width="0.50pt"
+          border-left-color="rgb(0,0,0)" border-left-style="solid" border-left-width="0.50pt"
+          border-right-color="rgb(0,0,0)" border-right-style="solid" border-right-width="0.50pt">
+          <fo:block end-indent="0lu" keep-together="auto" keep-with-next="auto" line-height="0lu" space-after="0lu" space-before="0lu" start-indent="0lu" tab-ruler="0" text-align="left" text-indent="0lu" usage-rule="Rule|0|">
+            <fo:inline color="rgb(0,0,0)" font-family="Times New Roman" font-size="10.00pt" font-style="normal" letter-spacing="0.00pt">Row 1, Col 4</fo:inline>
+          </fo:block>
+        </fo:table-cell>
+      </fo:table-row>
+
+      <!-- Row 2 -->
+      <fo:table-row keep-together="auto" keep-with-next="auto" keep-with-previous="auto">
+        <fo:table-cell column-number="1" number-columns-spanned="1" display-align="auto" keep-together="auto"
+          margin-top="4.00pt" margin-bottom="4.00pt" margin-left="4.00pt" margin-right="4.00pt"
+          border-top-color="rgb(0,0,0)" border-top-style="solid" border-top-width="0.50pt"
+          border-bottom-color="rgb(0,0,0)" border-bottom-style="solid" border-bottom-width="0.50pt"
+          border-left-color="rgb(0,0,0)" border-left-style="solid" border-left-width="0.50pt"
+          border-right-color="rgb(0,0,0)" border-right-style="solid" border-right-width="0.50pt">
+          <fo:block end-indent="0lu" keep-together="auto" keep-with-next="auto" line-height="0lu" space-after="0lu" space-before="0lu" start-indent="0lu" tab-ruler="0" text-align="left" text-indent="0lu" usage-rule="Rule|0|">
+            <fo:inline color="rgb(0,0,0)" font-family="Times New Roman" font-size="10.00pt" font-style="normal" letter-spacing="0.00pt">Row 2, Col 1</fo:inline>
+          </fo:block>
+        </fo:table-cell>
+        <fo:table-cell column-number="2" number-columns-spanned="1" display-align="auto" keep-together="auto"
+          margin-top="4.00pt" margin-bottom="4.00pt" margin-left="4.00pt" margin-right="4.00pt"
+          border-top-color="rgb(0,0,0)" border-top-style="solid" border-top-width="0.50pt"
+          border-bottom-color="rgb(0,0,0)" border-bottom-style="solid" border-bottom-width="0.50pt"
+          border-left-color="rgb(0,0,0)" border-left-style="solid" border-left-width="0.50pt"
+          border-right-color="rgb(0,0,0)" border-right-style="solid" border-right-width="0.50pt">
+          <fo:block end-indent="0lu" keep-together="auto" keep-with-next="auto" line-height="0lu" space-after="0lu" space-before="0lu" start-indent="0lu" tab-ruler="0" text-align="left" text-indent="0lu" usage-rule="Rule|0|">
+            <fo:inline color="rgb(0,0,0)" font-family="Times New Roman" font-size="10.00pt" font-style="normal" letter-spacing="0.00pt">Row 2, Col 2</fo:inline>
+          </fo:block>
+        </fo:table-cell>
+        <fo:table-cell column-number="3" number-columns-spanned="1" display-align="auto" keep-together="auto"
+          margin-top="4.00pt" margin-bottom="4.00pt" margin-left="4.00pt" margin-right="4.00pt"
+          border-top-color="rgb(0,0,0)" border-top-style="solid" border-top-width="0.50pt"
+          border-bottom-color="rgb(0,0,0)" border-bottom-style="solid" border-bottom-width="0.50pt"
+          border-left-color="rgb(0,0,0)" border-left-style="solid" border-left-width="0.50pt"
+          border-right-color="rgb(0,0,0)" border-right-style="solid" border-right-width="0.50pt">
+          <fo:block end-indent="0lu" keep-together="auto" keep-with-next="auto" line-height="0lu" space-after="0lu" space-before="0lu" start-indent="0lu" tab-ruler="0" text-align="left" text-indent="0lu" usage-rule="Rule|0|">
+            <fo:inline color="rgb(0,0,0)" font-family="Times New Roman" font-size="10.00pt" font-style="normal" letter-spacing="0.00pt">Row 2, Col 3</fo:inline>
+          </fo:block>
+        </fo:table-cell>
+        <fo:table-cell column-number="4" number-columns-spanned="1" display-align="auto" keep-together="auto"
+          margin-top="4.00pt" margin-bottom="4.00pt" margin-left="4.00pt" margin-right="4.00pt"
+          border-top-color="rgb(0,0,0)" border-top-style="solid" border-top-width="0.50pt"
+          border-bottom-color="rgb(0,0,0)" border-bottom-style="solid" border-bottom-width="0.50pt"
+          border-left-color="rgb(0,0,0)" border-left-style="solid" border-left-width="0.50pt"
+          border-right-color="rgb(0,0,0)" border-right-style="solid" border-right-width="0.50pt">
+          <fo:block end-indent="0lu" keep-together="auto" keep-with-next="auto" line-height="0lu" space-after="0lu" space-before="0lu" start-indent="0lu" tab-ruler="0" text-align="left" text-indent="0lu" usage-rule="Rule|0|">
+            <fo:inline color="rgb(0,0,0)" font-family="Times New Roman" font-size="10.00pt" font-style="normal" letter-spacing="0.00pt">Row 2, Col 4</fo:inline>
+          </fo:block>
+        </fo:table-cell>
+      </fo:table-row>
+
+      <!-- Row 3 -->
+      <fo:table-row keep-together="auto" keep-with-next="auto" keep-with-previous="auto">
+        <fo:table-cell column-number="1" number-columns-spanned="1" display-align="auto" keep-together="auto"
+          margin-top="4.00pt" margin-bottom="4.00pt" margin-left="4.00pt" margin-right="4.00pt"
+          border-top-color="rgb(0,0,0)" border-top-style="solid" border-top-width="0.50pt"
+          border-bottom-color="rgb(0,0,0)" border-bottom-style="solid" border-bottom-width="0.50pt"
+          border-left-color="rgb(0,0,0)" border-left-style="solid" border-left-width="0.50pt"
+          border-right-color="rgb(0,0,0)" border-right-style="solid" border-right-width="0.50pt">
+          <fo:block end-indent="0lu" keep-together="auto" keep-with-next="auto" line-height="0lu" space-after="0lu" space-before="0lu" start-indent="0lu" tab-ruler="0" text-align="left" text-indent="0lu" usage-rule="Rule|0|">
+            <fo:inline color="rgb(0,0,0)" font-family="Times New Roman" font-size="10.00pt" font-style="normal" letter-spacing="0.00pt">Row 3, Col 1</fo:inline>
+          </fo:block>
+        </fo:table-cell>
+        <fo:table-cell column-number="2" number-columns-spanned="1" display-align="auto" keep-together="auto"
+          margin-top="4.00pt" margin-bottom="4.00pt" margin-left="4.00pt" margin-right="4.00pt"
+          border-top-color="rgb(0,0,0)" border-top-style="solid" border-top-width="0.50pt"
+          border-bottom-color="rgb(0,0,0)" border-bottom-style="solid" border-bottom-width="0.50pt"
+          border-left-color="rgb(0,0,0)" border-left-style="solid" border-left-width="0.50pt"
+          border-right-color="rgb(0,0,0)" border-right-style="solid" border-right-width="0.50pt">
+          <fo:block end-indent="0lu" keep-together="auto" keep-with-next="auto" line-height="0lu" space-after="0lu" space-before="0lu" start-indent="0lu" tab-ruler="0" text-align="left" text-indent="0lu" usage-rule="Rule|0|">
+            <fo:inline color="rgb(0,0,0)" font-family="Times New Roman" font-size="10.00pt" font-style="normal" letter-spacing="0.00pt">Row 3, Col 2</fo:inline>
+          </fo:block>
+        </fo:table-cell>
+        <fo:table-cell column-number="3" number-columns-spanned="1" display-align="auto" keep-together="auto"
+          margin-top="4.00pt" margin-bottom="4.00pt" margin-left="4.00pt" margin-right="4.00pt"
+          border-top-color="rgb(0,0,0)" border-top-style="solid" border-top-width="0.50pt"
+          border-bottom-color="rgb(0,0,0)" border-bottom-style="solid" border-bottom-width="0.50pt"
+          border-left-color="rgb(0,0,0)" border-left-style="solid" border-left-width="0.50pt"
+          border-right-color="rgb(0,0,0)" border-right-style="solid" border-right-width="0.50pt">
+          <fo:block end-indent="0lu" keep-together="auto" keep-with-next="auto" line-height="0lu" space-after="0lu" space-before="0lu" start-indent="0lu" tab-ruler="0" text-align="left" text-indent="0lu" usage-rule="Rule|0|">
+            <fo:inline color="rgb(0,0,0)" font-family="Times New Roman" font-size="10.00pt" font-style="normal" letter-spacing="0.00pt">Row 3, Col 3</fo:inline>
+          </fo:block>
+        </fo:table-cell>
+        <fo:table-cell column-number="4" number-columns-spanned="1" display-align="auto" keep-together="auto"
+          margin-top="4.00pt" margin-bottom="4.00pt" margin-left="4.00pt" margin-right="4.00pt"
+          border-top-color="rgb(0,0,0)" border-top-style="solid" border-top-width="0.50pt"
+          border-bottom-color="rgb(0,0,0)" border-bottom-style="solid" border-bottom-width="0.50pt"
+          border-left-color="rgb(0,0,0)" border-left-style="solid" border-left-width="0.50pt"
+          border-right-color="rgb(0,0,0)" border-right-style="solid" border-right-width="0.50pt">
+          <fo:block end-indent="0lu" keep-together="auto" keep-with-next="auto" line-height="0lu" space-after="0lu" space-before="0lu" start-indent="0lu" tab-ruler="0" text-align="left" text-indent="0lu" usage-rule="Rule|0|">
+            <fo:inline color="rgb(0,0,0)" font-family="Times New Roman" font-size="10.00pt" font-style="normal" letter-spacing="0.00pt">Row 3, Col 4</fo:inline>
+          </fo:block>
+        </fo:table-cell>
+      </fo:table-row>
+
+      <!-- Row 4 -->
+      <fo:table-row keep-together="auto" keep-with-next="auto" keep-with-previous="auto">
+        <fo:table-cell column-number="1" number-columns-spanned="1" display-align="auto" keep-together="auto"
+          margin-top="4.00pt" margin-bottom="4.00pt" margin-left="4.00pt" margin-right="4.00pt"
+          border-top-color="rgb(0,0,0)" border-top-style="solid" border-top-width="0.50pt"
+          border-bottom-color="rgb(0,0,0)" border-bottom-style="solid" border-bottom-width="0.50pt"
+          border-left-color="rgb(0,0,0)" border-left-style="solid" border-left-width="0.50pt"
+          border-right-color="rgb(0,0,0)" border-right-style="solid" border-right-width="0.50pt">
+          <fo:block end-indent="0lu" keep-together="auto" keep-with-next="auto" line-height="0lu" space-after="0lu" space-before="0lu" start-indent="0lu" tab-ruler="0" text-align="left" text-indent="0lu" usage-rule="Rule|0|">
+            <fo:inline color="rgb(0,0,0)" font-family="Times New Roman" font-size="10.00pt" font-style="normal" letter-spacing="0.00pt">Row 4, Col 1</fo:inline>
+          </fo:block>
+        </fo:table-cell>
+        <fo:table-cell column-number="2" number-columns-spanned="1" display-align="auto" keep-together="auto"
+          margin-top="4.00pt" margin-bottom="4.00pt" margin-left="4.00pt" margin-right="4.00pt"
+          border-top-color="rgb(0,0,0)" border-top-style="solid" border-top-width="0.50pt"
+          border-bottom-color="rgb(0,0,0)" border-bottom-style="solid" border-bottom-width="0.50pt"
+          border-left-color="rgb(0,0,0)" border-left-style="solid" border-left-width="0.50pt"
+          border-right-color="rgb(0,0,0)" border-right-style="solid" border-right-width="0.50pt">
+          <fo:block end-indent="0lu" keep-together="auto" keep-with-next="auto" line-height="0lu" space-after="0lu" space-before="0lu" start-indent="0lu" tab-ruler="0" text-align="left" text-indent="0lu" usage-rule="Rule|0|">
+            <fo:inline color="rgb(0,0,0)" font-family="Times New Roman" font-size="10.00pt" font-style="normal" letter-spacing="0.00pt">Row 4, Col 2</fo:inline>
+          </fo:block>
+        </fo:table-cell>
+        <fo:table-cell column-number="3" number-columns-spanned="1" display-align="auto" keep-together="auto"
+          margin-top="4.00pt" margin-bottom="4.00pt" margin-left="4.00pt" margin-right="4.00pt"
+          border-top-color="rgb(0,0,0)" border-top-style="solid" border-top-width="0.50pt"
+          border-bottom-color="rgb(0,0,0)" border-bottom-style="solid" border-bottom-width="0.50pt"
+          border-left-color="rgb(0,0,0)" border-left-style="solid" border-left-width="0.50pt"
+          border-right-color="rgb(0,0,0)" border-right-style="solid" border-right-width="0.50pt">
+          <fo:block end-indent="0lu" keep-together="auto" keep-with-next="auto" line-height="0lu" space-after="0lu" space-before="0lu" start-indent="0lu" tab-ruler="0" text-align="left" text-indent="0lu" usage-rule="Rule|0|">
+            <fo:inline color="rgb(0,0,0)" font-family="Times New Roman" font-size="10.00pt" font-style="normal" letter-spacing="0.00pt">Row 4, Col 3</fo:inline>
+          </fo:block>
+        </fo:table-cell>
+        <fo:table-cell column-number="4" number-columns-spanned="1" display-align="auto" keep-together="auto"
+          margin-top="4.00pt" margin-bottom="4.00pt" margin-left="4.00pt" margin-right="4.00pt"
+          border-top-color="rgb(0,0,0)" border-top-style="solid" border-top-width="0.50pt"
+          border-bottom-color="rgb(0,0,0)" border-bottom-style="solid" border-bottom-width="0.50pt"
+          border-left-color="rgb(0,0,0)" border-left-style="solid" border-left-width="0.50pt"
+          border-right-color="rgb(0,0,0)" border-right-style="solid" border-right-width="0.50pt">
+          <fo:block end-indent="0lu" keep-together="auto" keep-with-next="auto" line-height="0lu" space-after="0lu" space-before="0lu" start-indent="0lu" tab-ruler="0" text-align="left" text-indent="0lu" usage-rule="Rule|0|">
+            <fo:inline color="rgb(0,0,0)" font-family="Times New Roman" font-size="10.00pt" font-style="normal" letter-spacing="0.00pt">Row 4, Col 4</fo:inline>
+          </fo:block>
+        </fo:table-cell>
+      </fo:table-row>
+
+    </dlg:table>
+  </dlg:objects>
+</dlg:page>
